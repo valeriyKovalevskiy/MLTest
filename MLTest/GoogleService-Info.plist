@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>519444816146-ehhloo71coe6nohobt69sl8c5hm00adk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.519444816146-ehhloo71coe6nohobt69sl8c5hm00adk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA57vOz_9s4gkPL8avLhSr_js6qWMUdciU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>519444816146</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>v.kovalevskiy.MLTest</string>
+	<key>PROJECT_ID</key>
+	<string>mltest-76ef2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mltest-76ef2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:519444816146:ios:6f6bfc20c1ff07e1abd3cb</string>
+	<key>DATABASE_URL</key>
+	<string>https://mltest-76ef2.firebaseio.com</string>
+</dict>
+</plist>

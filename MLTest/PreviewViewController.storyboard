@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Preview View Controller-->
+        <scene sceneID="bLS-Rd-zmN">
+            <objects>
+                <viewController storyboardIdentifier="PreviewViewController" id="bLI-XQ-DBT" customClass="PreviewViewController" customModule="MLTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="htZ-Tf-sU9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dnx-dJ-Yls">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dnx-dJ-Yls" secondAttribute="trailing" id="Bug-EB-W6S"/>
+                            <constraint firstAttribute="bottom" secondItem="dnx-dJ-Yls" secondAttribute="bottom" id="F2l-c1-6GJ"/>
+                            <constraint firstItem="dnx-dJ-Yls" firstAttribute="top" secondItem="htZ-Tf-sU9" secondAttribute="topMargin" id="jSQ-km-xnF"/>
+                            <constraint firstItem="dnx-dJ-Yls" firstAttribute="leading" secondItem="htZ-Tf-sU9" secondAttribute="leading" id="oWO-na-OMh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wtc-DV-DJP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bEN-CO-wkv">
+                        <rightBarButtonItems>
+                            <barButtonItem title=" " id="kau-0z-PSo"/>
+                            <barButtonItem title="Save" id="r1O-2J-wII">
+                                <connections>
+                                    <action selector="didTappedSaveButton:" destination="bLI-XQ-DBT" id="CyE-gE-jvN"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="dnx-dJ-Yls" id="lDT-2O-z1J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hur-mn-Z1m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1800" y="132"/>
+        </scene>
+    </scenes>
+</document>

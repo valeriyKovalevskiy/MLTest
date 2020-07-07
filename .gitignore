@@ -1,0 +1,9 @@
+MLTest.xcodeproj/xcuserdata
+MLTest.xcworkspace/xcshareddata
+MLTest.xcworkspace/xcuserdata
+*.ipa
+*.zip
+*.xcarchive
+*.xcworkspace
+Pods
+Podfile.lock
